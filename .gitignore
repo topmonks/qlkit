@@ -17,3 +17,5 @@ package-lock.json
 package.json
 .cpcache
 .lein-failures
+.idea/
+*.iml

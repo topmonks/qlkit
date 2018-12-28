@@ -183,7 +183,7 @@
 (defn- normalize-query [query]
   (aggregate-read-queries (normalize-query-helper query)))
 
-(defn- add-class [nam class]
+(defn add-class [nam class]
   "Adds a qlkit class to the global list of classes. Note that a 'qlkit class' is just a clojure map."
   (assert (:render class))
   (when-let [query (:query class)]
